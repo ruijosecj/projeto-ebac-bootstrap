@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <title>Filmes</title>
+</head>
+<body>
+   
+        <div class="container ">
+            <h1 class="mb-3 mt-3">Filmes em destaque</h1>
+            <div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+
+                    <div data-bs-interval="2000" class="carousel-item active">
+                        <img class="d-block w-100" src="./images/vingadores.jpg" alt="">
+                    </div>
+                    <div data-bs-interval="2000" class="carousel-item">
+                        <img class="d-block w-100" src="./images/stranger.jpg" alt="">
+                    </div>
+                    <div data-bs-interval="2000" class="carousel-item">
+                        <img class="d-block w-100" src="./images/madmaxjpg.jpg" alt="">
+                    </div>
+                </div>
+                    <button data-bs-target="#carousel" class="carousel-control-prev" type="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span> 
+                    </button>
+                    <button data-bs-target="#carousel" class="carousel-control-next" type="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="carousel" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="carousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="carousel" data-bs-slide-to="2"></button>
+                    </div>
+            </div>
+            <section>
+                <h1 class="mt-3 mb-3">Próximos lançamentos</h1>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="./images/jonhwick.png" alt="">
+                            <div class="card-boby">
+                                <h4 class="card-title">Jonh Wick 4</h4>
+                                <p class="card-text">
+                                    O assassino profissional John Wick (Keanu Reeves) agora virou metade do submundo contra ele com sua vingança, que agora está entrando em sua quarta rodada em Nova York, Berlim, Paris e Osaka.
+                                </p>
+                                <a href="#" class="btn btn-primary">Ler mais >></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="./images/creed.jpg" alt="">
+                            <div class="card-boby">
+                                <h4 class="card-title">Creed 3</h4>
+                                <p class="card-text">
+                                    Adonis Creed (Michael B. Jordan) finalmente está prosperando em sua carreira e vida pessoal. No entanto, seu equilíbrio é abalado quando Damian Anderson (Jonathan Majors), um amigo de infância e ex-prodígio do boxe, ressurge de repente. Aos poucos, eles descobrirão que o seu conflito vai muito além de apenas uma luta profissional.
+                                </p>
+                                <a href="#" class="btn btn-primary">Ler mais >></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="./images/shazam.jpg" alt="">
+                            <div class="card-boby">
+                                <h4 class="card-title">Shazam - A fúria dos deuses</h4>
+                                <p class="card-text">
+                                    Após se tornar um grande super-herói com os poderes de Shazam, o adolescente Billy Batson (Asher Angel) conta com a sua família adotiva para proteger o mundo de diferentes ameaças, visto que todos ganharam superpoderes em sua última grande batalha. E agora o grupo precisará lidar com o que há de mais perigoso: a fúria dos deuses que acreditam que eles não podem ser super-heróis.
+                                </p>
+                                <a href="#" class="btn btn-primary">Ler mais >></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+   
+    
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
